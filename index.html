@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YWS Solar | Limpeza e Manutenção de Painéis Solares</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #1e2937 0%, #0f172a 100%); }
+        .cta-button { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .cta-button:hover { transform: translateY(-3px); }
+        .service-card { transition: transform 0.3s, box-shadow 0.3s; }
+        .service-card:hover { transform: translateY(-8px); }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+    <!-- Navbar -->
+    <nav class="bg-slate-900 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <div class="w-10 h-10 bg-amber-500 rounded-2xl flex items-center justify-center">
+                    <i class="fa-solid fa-sun text-white text-2xl"></i>
+                </div>
+                <span class="font-bold text-2xl tracking-tight">YWS Solar</span>
+            </div>
+            <a href="https://wa.me/5562991758807" target="_blank"
+               class="flex items-center gap-x-2 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold rounded-2xl">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Falar no WhatsApp</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg">
+        <div class="max-w-5xl mx-auto px-6 pt-20 pb-16 text-center">
+            <div class="inline-flex items-center gap-x-2 bg-amber-500/10 text-amber-400 px-4 py-1 rounded-full text-sm font-medium mb-6">
+                <i class="fa-solid fa-check"></i>
+                <span>Atendimento em todo o Brasil</span>
+            </div>
+            
+            <h1 class="text-6xl md:text-7xl font-bold tracking-tighter leading-none mb-6">
+                Seus painéis solares<br>estão sujos?<br>
+                <span class="text-amber-400">Você está perdendo dinheiro.</span>
+            </h1>
+            
+            <p class="max-w-2xl mx-auto text-xl text-slate-300 mb-10">
+                A sujeira pode reduzir até <span class="font-semibold text-white">30% da geração</span> de energia.<br>
+                Faça a limpeza profissional e recupere sua economia.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/5562991758807" target="_blank"
+                   class="cta-button px-10 py-4 bg-emerald-500 hover:bg-emerald-600 text-white text-lg font-semibold rounded-3xl flex items-center justify-center gap-x-3">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>Quero limpar meus painéis agora</span>
+                </a>
+                <a href="#servicos" class="px-8 py-4 border border-slate-600 hover:bg-slate-900 text-lg font-medium rounded-3xl flex items-center justify-center gap-x-2">
+                    Ver serviços
+                </a>
+            </div>
+            <p class="text-xs text-slate-500 mt-4">Resposta rápida • Orçamento grátis</p>
+        </div>
+    </section>
+
+    <!-- Problema -->
+    <section class="max-w-5xl mx-auto px-6 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold tracking-tight">Por que sua geração está caindo?</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-slate-900 border border-slate-700 rounded-3xl p-8">
+                <i class="fa-solid fa-cloud text-4xl text-amber-400 mb-6"></i>
+                <h3 class="font-semibold text-xl mb-3">Poeira e poluição</h3>
+                <p class="text-slate-400">A sujeira se acumula com o tempo e bloqueia a luz do sol.</p>
+            </div>
+            <div class="bg-slate-900 border border-slate-700 rounded-3xl p-8">
+                <i class="fa-solid fa-exclamation-triangle text-4xl text-amber-400 mb-6"></i>
+                <h3 class="font-semibold text-xl mb-3">Perda de até 30%</h3>
+                <p class="text-slate-400">Painéis sujos geram muito menos energia do que os limpos.</p>
+            </div>
+            <div class="bg-slate-900 border border-slate-700 rounded-3xl p-8">
+                <i class="fa-solid fa-money-bill-wave text-4xl text-amber-400 mb-6"></i>
+                <h3 class="font-semibold text-xl mb-3">Mais gasto na conta</h3>
+                <p class="text-slate-400">Menos geração = mais energia comprada da concessionária.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="bg-slate-900 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold tracking-tight">Nossos serviços</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Limpeza -->
+                <div class="service-card bg-slate-950 border border-slate-700 rounded-3xl p-9">
+                    <div class="flex items-center gap-x-4 mb-6">
+                        <div class="w-14 h-14 bg-amber-500/10 rounded-2xl flex items-center justify-center">
+                            <i class="fa-solid fa-shower text-3xl text-amber-400"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold">Limpeza Profissional</h3>
+                    </div>
+                    <ul class="space-y-3 text-slate-300 mb-8">
+                        <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Remoção completa de sujeira e resíduos</li>
+                        <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Equipamentos e produtos adequados</li>
+                        <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Segurança total (sem risco de danos)</li>
+                        <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Relatório fotográfico antes e depois</li>
+                    </ul>
+                    <a href="https://wa.me/5562991758807" target="_blank" class="text-emerald-400 font-semibold hover:text-emerald-300 flex items-center gap-x-2">
+                        Agendar limpeza agora <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Manutenção -->
+                <div class="service-card bg-slate-950 border border-slate-700 rounded-3xl p-9">
+                    <div class="flex items-center gap-x-4 mb-6">
+                        <div class="w-14 h-14 bg-emerald-500/10 rounded-2xl flex items-center justify-center">
+                            <i class="fa-solid fa-tools text-3xl text-emerald-400"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold">Manutenção Preventiva</h3>
+                    </div>
+                    <ul class="space-y-3 text-slate-300 mb-8">
+                        <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Inspeção completa do sistema</li>
+                        <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Verificação de conexões e inversor</li>
+                        <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Detecção precoce de falhas</li>
+                        <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Orientações para maior durabilidade</li>
+                    </ul>
+                    <a href="https://wa.me/5562991758807" target="_blank" class="text-emerald-400 font-semibold hover:text-emerald-300 flex items-center gap-x-2">
+                        Solicitar manutenção <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="bg-emerald-600 py-16">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold text-white tracking-tight mb-4">Pronto para recuperar sua economia?</h2>
+            <p class="text-emerald-100 text-lg mb-8">Fale com a gente agora e agende sua limpeza ou manutenção.</p>
+            
+            <a href="https://wa.me/5562991758807" target="_blank"
+               class="inline-flex items-center gap-x-3 px-10 py-4 bg-white text-emerald-600 text-lg font-bold rounded-3xl hover:bg-emerald-50">
+                <i class="fa-brands fa-whatsapp text-2xl"></i>
+                <span>Conversar no WhatsApp agora</span>
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 border-t border-slate-800 py-10 text-center text-sm text-slate-400">
+        YWS Solar • Limpeza e Manutenção de Sistemas Fotovoltaicos<br>
+        Atendimento via WhatsApp • Orçamento sem compromisso
+    </footer>
+</body>
+</html>
